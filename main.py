@@ -1,4 +1,5 @@
 import os 
+from time import sleep
 
 print("option 1: run system command")
 print("option 2: Create file")
@@ -35,7 +36,12 @@ def createfile():
         ll = "{}"
         f.write(f"int main{ll}")
         f2.write("pragma once;")
-        print("initializing g++")
+        print("initializing g++.")
+        sleep(3)
+        print("initializing g++..")
+        sleep(3)
+        print("initializing g++...")
+        sleep(3)
         print("success")
         print("your file has been created")
 
